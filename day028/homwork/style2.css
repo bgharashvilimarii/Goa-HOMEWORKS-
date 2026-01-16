@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #ff600a;
+    height: 70px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;      /* ვერტიკალურად ერთ ხაზზე */
+    justify-content: space-between; /* ლოგო მარცხნივ, მენიუ მარჯვნივ */
+    padding: 0 24px;
+    height: 60px;
+
+}
+.logo {
+    height: 40px;
+    margin-left: 200px;
+}
+
+.bar {
+    text-align: right;
+    margin-right: 50px;
+
+}
+a {
+    margin-right: 30px;
+    color: #ffffff99;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: MarkGEO, sans-serif;
+}
+.b {
+    border: none;
+    background-color: #ff600a;
+    font-family: MarkGEO, sans-serif ;
+}
+
+.ok {
+    margin-top: 50px;
+    width: 500px;
+    float: left;
+}
+
+p {
+    color: #3d3d3d ;
+}
+
+.item1,.item2,.item3 {
+    margin-left: 200px;
+    border-bottom:  1px solid #b7b7b7;
+    cursor: pointer;
+    /* margin-right: 48px; */
+}
+.j {
+    color: #3d3d3d;
+}
+
+.title {
+    margin-top: 50px;
+    margin-left: 570px;
+}
+
+.text {
+    margin-left: 570px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.txt1 {
+    margin-left: 570px;
+}
+
+.im1 {
+    margin-left: 570px;
+    border-radius: 12px;
+    height: 400px;
+    width: 880px;
+    margin-bottom: 15px;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 40px;
+}
+
+.im2 {
+    margin-left: 570px;
+    border-radius: 12px;
+    height: 400px;
+    width: 880px;
+    margin-bottom: 15px;
+}
+
+.txt2 {
+    margin-left: 570px;
+    margin-bottom: 50px;
+}
+.txt3 {
+    margin-left: 570px;
+    margin-bottom: 100px;
+}
+
+.title1 {
+    margin-left: 570px;
+}
+
+.txt4,.txt5,.txt6 {
+    margin-left: 570px;
+}
+
+.s {
+    margin-left: 570px;
+    color: #ff600a;
+}
+.divider1 {
+    border: none;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin: 40px;
+}
+
+.ui {
+    width: 890px;
+    height: 95px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+    border-radius: 12px;
+    margin-left: 570px;
+    display: flex;                 /* ერთ ხაზზე აყენებს */
+    align-items: center;           /* ვერტიკალურად ასწორებს */
+    justify-content: space-between;/* ტექსტი მარცხნივ, ღილაკი მარჯვნივ */
+
+}
+.alr {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.text4 {
+    margin-top: 6px;
+    font-size: 14px;
+}
+.but {
+  background: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.ups1 {
+   margin-left: 1210px;
+   width: 250px;
+   background-color: #f4f4f4;
+   display: flex;                 /* ერთ ხაზზე აყენებს */
+   align-items: center;           /* ვერტიკალურად ასწორებს */
+   justify-content: space-between;/* ტექსტი მარცხნივ, ღილაკი მარჯვნივ */
+   border-radius: 12px;
+   height: 95px;
+   margin-bottom: 100px;
+}
+
+
+.text5 {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.text6 {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.link {
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+footer{
+    margin-bottom: 100px;
+}
+.op {
+    margin-left: 240px;
+    margin-bottom: 0;
+}
+.list {
+    margin-top: 5px;
+    margin-left: 200px;
+    /* list-style-type: circle; */
+    /* display: inline; */
+    color: #3d3d3d;
+}
+li , ul{
+    list-style-type: circle;
+    display: flex;
+}
+.k {
+    list-style-type: circle;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+.j,.text6 {
+    color: #3d3d3d;
+}

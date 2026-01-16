@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #ff600a;
+    height: 70px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;      /* ვერტიკალურად ერთ ხაზზე */
+    justify-content: space-between; /* ლოგო მარცხნივ, მენიუ მარჯვნივ */
+    padding: 0 24px;
+    height: 60px;
+
+}
+.logo {
+    height: 40px;
+    margin-left: 200px;
+}
+
+.bar {
+    text-align: right;
+    margin-right: 50px;
+
+}
+a {
+    margin-right: 30px;
+    color: #ffffff99;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: MarkGEO, sans-serif;
+}
+.b {
+    border: none;
+    background-color: #ff600a;
+    font-family: MarkGEO, sans-serif ;
+}
+
+.ok {
+    margin-top: 50px;
+    width: 500px;
+    float: left;
+}
+
+p {
+    color: #3d3d3d ;
+}
+
+.item1,.item2,.item3 {
+    margin-left: 200px;
+    border-bottom:  1px solid #b7b7b7;
+    cursor: pointer;
+    /* margin-right: 48px; */
+}
+
+.maincard{
+    display: flex;
+    margin-bottom: 70px;
+}
+.im1 {
+    width: 435px;
+    border-radius: 12px;
+    margin-left: 570px;
+    margin-right: 25px;
+}
+
+.im2 {
+    width: 435px;
+    border-radius: 12px;
+}
+
+.title {
+    margin-top: 50px;
+   margin-left: 570px;
+}
+
+.text {
+    margin-left: 570px;
+    font-size: 16px;
+}
+
+.text1 {
+    margin-left: 570px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.text2 {
+    margin-left: 570px;
+}
+.text3 {
+    margin-left: 570px;
+}
+.text4 {
+    font-size: 18px;
+}
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 40px;
+}
+
+.im3 {
+    width: 894px;
+    border-radius: 12px;
+    margin-left: 570px;
+    margin-top: 30px;
+}
+
+.text16 {
+    margin-left: 570px;
+}
+
+.text7 {
+    margin-left: 570px;
+}
+
+.text8 {
+    margin-left: 570px;
+    margin-bottom: 70px;
+}
+
+.im4 {
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 894px;
+    margin-left: 570px;
+}
+
+.text9 {
+   margin-left: 570px;
+}
+.text10 {
+   margin-left: 570px;
+}
+
+.im5 {
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 894px;
+    margin-left: 570px;
+}
+
+.text11,.text12,.text13,.text14,.text15 {
+    margin-left: 570px;
+}
+
+.text15 {
+    margin-bottom: 100px;
+}
+
+.ui {
+    width: 890px;
+    height: 95px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+    border-radius: 12px;
+    margin-left: 570px;
+    display: flex;                 /* ერთ ხაზზე აყენებს */
+    align-items: center;           /* ვერტიკალურად ასწორებს */
+    justify-content: space-between;/* ტექსტი მარცხნივ, ღილაკი მარჯვნივ */
+
+}
+.alr {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.text4 {
+    margin-top: 6px;
+    font-size: 14px;
+}
+.but {
+  background: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.ups1 {
+   margin-left: 1210px;
+   width: 250px;
+   background-color: #f4f4f4;
+   display: flex;                 /* ერთ ხაზზე აყენებს */
+   align-items: center;           /* ვერტიკალურად ასწორებს */
+   justify-content: space-between;/* ტექსტი მარცხნივ, ღილაკი მარჯვნივ */
+   border-radius: 12px;
+   height: 95px;
+   margin-bottom: 100px;
+}
+
+
+.text5 {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.text6 {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.link {
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+
+}
+
+footer{
+    margin-bottom: 100px;
+}
+.op {
+    margin-left: 240px;
+    margin-bottom: 0;
+}
+.list {
+    margin-top: 5px;
+    margin-left: 200px;
+    /* list-style-type: circle; */
+    /* display: inline; */
+    color: #3d3d3d;
+}
+li , ul{
+    list-style-type: circle;
+    display: flex;
+}
+.k {
+    list-style-type: circle;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+.j {
+    color: #3d3d3d;
+}

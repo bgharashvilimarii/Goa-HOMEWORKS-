@@ -1,0 +1,116 @@
+<!--
+<header> თეგი გამოიყენება გვერდის ან სექციის სათაურის ნაწილისთვის.
+აქ ჩვეულებრივ თავსდება ლოგო, საიტის სახელწოდება, ნავიგაცია (მენიუ).
+
+<main> თეგი შეიცავს გვერდის მთავარ შინაარსს.
+ერთ HTML დოკუმენტში მხოლოდ ერთი <main> უნდა იყოს.
+აქ მოთავსებულია ის ინფორმაცია, რისთვისაც მომხმარებელი შედის საიტზე.
+
+<section> თეგი გამოიყენება შინაარსის ლოგიკურად დაყოფისთვის.
+მაგალითად: სტატიები, სერვისები, ახალი ამბები და ა.შ.
+თითოეულ section-ს ხშირად აქვს სათაური (h2, h3).
+
+<footer> თეგი წარმოადგენს გვერდის ქვედა ნაწილს.
+აქ ხშირად თავსდება ავტორის ინფორმაცია, კოპირაითი, კონტაქტი, ლინკები.
+
+რესპონსიული დიზაინი არის ვებ-დიზაინის მიდგომა,
+რომლის დროსაც ვებ-საიტი ავტომატურად ერგება სხვადასხვა ეკრანის ზომას
+(მობილური, ტაბლეტი, ლეპტოპი, დესკტოპი).
+
+რესპონსიული დიზაინი ძირითადად მიიღწევა:
+- CSS Media Queries-ის გამოყენებით
+- მოქნილი ზომებით (%, vw, vh)
+- Flexbox და Grid ლეიაუთებით
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>საქართველოს ბანკი</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" type="image/x-icon" href=""> -->
+</head>
+<body>
+    <header>
+    <img src="images/Screenshot 2026-01-15 112907.png" alt="logo" class="logo">
+    <nav class="bar">
+        <a href="#">მთავარი</a>
+        <a href="#">დიზაინ სისტემა</a>
+        <a href="#">ბრენდი</a>
+        <a href="#">ბლოგი</a>
+        <a href="#">კარიერა</a>
+        <button class="b"><a href="#">ENG</a></button>
+    </nav>
+    </header>
+   <div class="ok">
+    <div class="item1"><p><a href="index1.html" class="j">ბრენდის ფილოსოფია</a></p></div>
+    <div class="item2"><p><a href="index.html" class="j">ლოგო</a><p></div>
+    <div class="item3"><p><a href="index2.html" class="j">ვერბალური კომუნიკაცია</a></p></div>
+    </div>
+   </div>
+    <main>
+        <section>
+            <h1 class="title">ლოგოს ისტორია</h1>
+            <p class="text">საქართველოს ბანკის ლოგო <b>ლომია.</b> 
+               ლომი, როგორც ცხოველთა <b> მეფე </b>და<b> სიძლიერის,</b><br><b>გაბედულობის,
+               სიბრძნის</b>  სიმბოლო.</p>
+               <img src="images/7b5df41f-9100-4da1-b62c-f5bd737450c8.png" alt="lion" class="im">
+               <p class="i">ჩვენი ბრენდის ვიზუალურ იდენტობად,
+                 ალაზნის ველის მიდამოებში აღმოჩენილი ლომის<br> ქანდაკების რეპროდუქციას ვიყენებთ. </p>
+                <p class="va">ის დათარიღებულია ჩვენს წელთაღრიცხვამდე <b>III ათასწლეულით</b> და ქართული
+                     ლომის<br> ყველაზე ძველ გამოსახულებად არის აღიარებული.
+                     ეს საგანძური დღეს საქართველოს<br> ეროვნულ მუზეუმში ინახება. </p>
+                      <hr class="divider"> <!-- gamkof xazs kmnis -->
+        </section>
+        <section>
+            <h1 class="head">ლოგოს გამოყენება</h1>
+            <p class="text1">ლოგოს ძირითადი ვერსია ქართულენოვანია და მასში ტექსტი ჰორიზონტალურად,
+                 <br> ხაზზეა განლაგებული.</p>
+            <img src="images/opa.png" alt="slay" class="im1" width="890px">
+            <p class="text2">ლომს გარშემო ფონად თეთრი ფერი ადევს, რაც იძლევა შესაძლებლობას,
+                 რომ<br> ნარინჯისფერი, რომელიც ჩვენი ბრენდის ძირითადი ფერია, შენარჩუნდეს. </p>
+                 <hr class="divider">
+        </section>
+        <section>
+            <img src="images/c7b942c2-4db0-4e67-9992-d8f2e57efd3a.png" class="im3" width="890px">
+            <hr class="divider">
+            <img src="images/470dc258-0d99-4e4a-8e41-f6c48dd0219d.png" class="im2" width="890px">
+            <p class="text3">ლოგოს ფერად ფონზე გამოყენების დროს, წარწერაც თეთრი ფერის ხდება, 
+                რაც<br> გვეხმარება კონტრასტის შენარჩუნებაში, რომ ტექსტი კარგად იკითხებოდეს. </p>
+            <div class="ui">
+                <div class="alr">
+                <h2>გაქვს კომენტარი?</h2>
+                <p class="text4">მოგვწერე შეკითხვა ან გაგვიწიარე შენი აზრი</p>
+               </div>
+                <button class="but">მოგვწერე</button>
+                 </div>
+                 <hr class="divider">
+        </section>
+        <div class="ups1">
+        <div class="ups">
+            <h1 class="text5">წაიკითხე შემდეგი</h1>
+            <p class="text6">ვერბალური კომუნიკაცია</p>
+        </div>
+        <button class="link"><a href="index2.html" class="j">></a></button>
+        </div>
+        <hr class="divider">
+    </main>
+
+    <footer>
+        <p class="op">© 1997 - 2025 საქართველოს ბანკი</p>
+        <div class="list">
+            <ul>
+            <li><a href="" class="k">მთავარი</a></li>
+            <li><a href="" class="k">დიზაინ სისტემა</a></li>
+            <li><a href="" class="k">ბრენდი</a><li>
+            <li><a href="" class="k">ბლოგი</a></li>
+            <li><a href="" class="k">შეტყობინება მონაცემთა თაობის დამუშავებაზე</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
