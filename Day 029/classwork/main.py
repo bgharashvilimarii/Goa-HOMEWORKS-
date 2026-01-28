@@ -23,7 +23,7 @@ print(i[1])
 numb = [1,2,3,4,5]
 print(numb[::2])
 
-# N9
+#N9
 
 list = [1,2,3,4,5]
 list1 = len(list) // 2
@@ -37,12 +37,12 @@ print(list[:len(list)//2])
 
 
 # n9
-list = [1,2,3,4,5]
-print(list[2])
+# list = [1,2,3,4,5]
+# print(list[2])
 
 # n10
 list = [1,2,3,4,5,6]
-print(list[:3])
+# print(list[:3])
 
 
 
