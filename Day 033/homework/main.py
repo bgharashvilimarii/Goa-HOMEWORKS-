@@ -64,7 +64,7 @@ print(School)
 # შექმენით ფუნქცია, რომელსაც გადაეცემა ორი რიცხვი. თქვენი დავალებაა დააბრუნოთ ამ ორი რიცხვის ჯამი.
 
 def sum(x,y):
-    return f"{x + y}"
+    return x + y
 
 print(sum(2 , 5))
 
@@ -74,16 +74,16 @@ print(sum(2 , 5))
 
 def even(num):
      if num % 2 == 0:
-          return f"{num} is even"
+          return "number is even"
      else:
-          return f"{num} is odd"
+          return "number  is odd"
      
 print(even(3))
 
 #  შექმენით ფუნქცია, რომელსაც გადაეცემა 1 რიცხვი. თქვენი დავალებაა დააბრუნოთ ამ რიცხვის კვადრატული მნიშნელობა.
 
 def power(number):
-     return f"{number ** 2}"
+     return number ** 2
 
 print(power(5))
 
