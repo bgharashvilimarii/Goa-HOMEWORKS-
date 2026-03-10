@@ -1,0 +1,280 @@
+header {
+    width: 1670px;
+    height: 65px;
+    border: white solid 1px;
+    box-shadow: 1px 1px 1px 1px rgb(193, 191, 191);
+    border-radius: 22px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logoimg {
+    margin-top: 10px;
+    width: 40px;
+    margin-left: 30px;
+    height: 47px;
+}
+
+.logo {
+    display: flex;
+    margin-right: 80px;
+}
+
+.logotext {
+    color: #364153;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #364153;
+    font-size: 18px;
+}
+nav {
+    margin-top: 22px;
+    margin-left: 580px;
+    margin-right: 20px;
+}
+
+.selection {
+    display: flex;
+}
+.selection a {
+    text-decoration: none;
+    color: rgb(160, 159, 159);
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.selection p {
+    color: rgb(160, 159, 159);
+    margin-left: 10px;
+}
+.yiyliyo img {
+    width: 410px;
+    height: 400px;
+    border-radius: 12px;
+}
+
+.card {
+    margin-left: 460px;
+    margin-top: 20px;
+}
+
+.text {
+    height: 0;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    border: 1px solid rgb(189, 186, 186);
+    margin-left: 10px;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    height: 20px;
+    display: inline;
+}
+
+.main {
+   display: flex;
+}
+
+.opa {
+    display: block;
+    margin-left: 30px;
+
+}
+
+.about {
+    margin-left: 10px;
+}
+.about h1 {
+    margin-top: 40px;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+.about p {
+    font-size: 20px;
+    color: #747476;
+    margin-top: 15px;
+}
+
+.card1 {
+    display: flex;
+}
+.card1 p {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.card1 img {
+     width: 21px;
+     height: 21px;
+     margin-top: 15px;
+}
+
+.card3 h1{
+    margin-top: 0;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.cards {
+    display: flex;
+}
+
+.links a {
+    text-decoration: none;
+    border: 1px solid rgb(185, 182, 182);
+    border-radius: 6px;
+    padding: 8px 22px 8px 22px;
+    margin-left: 20px;
+    color: black;
+
+
+}
+
+
+hr {
+    margin-top: 100px;
+    width: 1300px;
+    margin-bottom: 100px;
+}
+.ing {
+    margin-left: 200px;
+    margin-bottom: 50px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+}
+
+.ing h1 {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 30px;
+    color: #ff6900;
+}
+
+.ing ul {
+    color:#ff6900 ;
+    
+}
+
+.ing p {
+    color: #364153;
+}
+
+.rule {
+    margin-left: 40px;
+    height: 650px;
+    width: 500px;
+    border: 1px white solid;
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+    border-radius: 12px;
+}
+
+/* .rule ol {
+    background-color: #ff6900;
+    color: white;
+    border-radius: 50%;
+} */
+
+.rule p {
+    color: #747476;
+    background-color: white;
+}
+
+.rule h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 28px;
+    color: #ff6900;
+}
+
+.ok {
+    margin-left: 200px;
+    margin-bottom: 50px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+}
+
+.ok .g {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.ok h1 {
+    font-size: 22px;
+    padding-top: 30px;
+    text-align: center;
+    color: #ff6900;
+}
+
+.chef {
+    margin-left: 200px;
+    margin-bottom: 50px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+    width: 250px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.slay {
+    margin-left: 270px;
+    display: block;
+}
+
+#k {
+    display: flex;
+}
+
+.card6 {
+    border-radius: 12px;
+    margin-top: 50px;
+    width: 500px;
+    height: 280px;
+    border: white 1px;
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+}
+
+.card7 {
+    height: 300px;
+    width: 800px;
+    border: 1px rgb(146, 146, 146);
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+    border-radius: 12px;
+    margin-left: 470px;
+}
+.card7 h1{
+    padding-top: 30px;
+    text-align: center;
+    color: #ff6900;
+}
+
+.card7 ul {
+    color: #49d6db;
+}
+
+.card7 p {
+    color: #364153;
+}
