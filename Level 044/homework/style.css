@@ -1,0 +1,55 @@
+body p {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.l1 {
+  font-family: "Datatype", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* ლინკი რომელიც ჯერ არ არის გახსნილი */
+.l1:link {
+    color: rgb(2, 2, 26);
+}
+
+
+.l2 {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* ლინკი რომელიც  უკვე გახსნილია */
+.l2:visited {
+    color: aqua;
+}
+
+.l3 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* როცა მაუსის კურსორი გადავა ელემენტზე*/
+.l3:hover {
+    color: blueviolet;
+}
+
+.l4 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* როცა მომხმარებელი დააჭერს ლინკს */
+.l4:active {
+    color: green;
+}
