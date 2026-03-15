@@ -32,4 +32,8 @@ print("kurorti shekvetili".find("t"))
 
 
 
+        
+
+
+
 
