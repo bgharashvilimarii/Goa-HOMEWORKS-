@@ -1,0 +1,22 @@
+table {
+    border-collapse: separate;
+    border: none;
+    text-align: center;
+}
+
+th {
+    background-color: #8BC34A;
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+td {
+    height: 30px;
+    border-radius: 3px;
+    background-color: #d9edc8;
+    color: #757373;
+}

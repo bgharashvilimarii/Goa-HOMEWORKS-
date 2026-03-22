@@ -1,0 +1,23 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+td {
+    height: 22px;
+}
+
+th {
+    height: 22px;
+    background-color: #2EA44F;
+    border-bottom: rgb(73, 71, 71) 4px solid;
+}
+
+
+tr:nth-child(even) {
+    background-color: #2AA1B0;
+}
+.tr1,.tr2,.tr3 {
+    border-bottom: rgb(73, 71, 71) 4px solid;
+}
