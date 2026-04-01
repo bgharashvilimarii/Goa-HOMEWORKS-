@@ -1,0 +1,13 @@
+li::marker {
+    color: red;
+}
+
+li {
+    list-style-type: square;
+}
+
+.li1::marker {
+    list-style-type: square;
+    border: 3px solid red;
+    background-color: transparent;
+}
