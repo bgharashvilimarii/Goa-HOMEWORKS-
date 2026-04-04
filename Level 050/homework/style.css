@@ -1,0 +1,32 @@
+.child1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.child2 {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.child3 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.perent {
+    border: 3px solid black;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+body {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
