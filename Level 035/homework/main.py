@@ -36,3 +36,78 @@ def check_nums(x):
         return f"person is teen"
 
 print(check_nums(18))
+
+
+
+# def accum(st):
+#     list = []
+#     num = 0
+#     for i in st:
+#         list.append(i.upper() + i.lower() * num)
+#         num += 1
+#     return "-".join(list)
+
+
+# print(accum("ZpglnRxqenU"))
+
+# def longest(a1, a2): 
+#     list = []
+#     for i in a1:
+#         if i not in list:
+#             list.append(i)
+#     for k in a2:
+#         if k not in list:
+#             list.append(k)
+#             um = sorted(list)
+#     return "".join(um)
+    
+    
+# print(longest("aretheyhere", "yestheyarehere"))
+
+# def remove_url_anchor(url):
+#     um = len(url)
+#     ok = url.index("#")
+#     count = um - ok
+#     okey = url[:-count]
+#     return okey
+ 
+
+
+    
+# print(remove_url_anchor("www.codewars.com#about"))
+
+# def number(bus_stops):
+#     list2 = []
+#     list1 = []
+#     list = []
+#     for i in bus_stops:
+#         for k in i:
+#             list.append(k)
+#     for char in list[::2]:
+#         list1.append(char)
+#     for num in list[1::2]:
+#         list2.append(num)
+#     return sum(list1) - sum(list2)
+
+
+    
+ 
+
+# print(number([[10,0],[3,5],[5,8]]))
+
+# def sum_digits(number):
+#     list = []
+#     if number < 0:
+#         number = -1 * number
+#     result = str(number)
+#     for i in result:
+#         list.append(int(i))
+#     return sum(list)
+
+
+
+
+
+
+
+# print(sum_digits(10))
