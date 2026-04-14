@@ -111,3 +111,27 @@ print(check_nums(18))
 
 
 # print(sum_digits(10))
+
+
+def narcissistic( value ):
+    list1 = []
+    list = []
+    um = str(value)
+    for i in um:
+        list.append(int(i))
+    for num in list:
+        list1.append(num**len(um))
+    if sum(list1) == value:
+        return True
+    else:
+        return False
+        
+print(narcissistic(371))
+
+
+def spin_words(sentence):
+
+
+ 
+
+print(spin_words("Hey wollef sroirraw"))
