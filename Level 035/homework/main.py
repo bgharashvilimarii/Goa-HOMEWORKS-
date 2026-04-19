@@ -3,39 +3,39 @@
 # shemdeg ()- romelshic iwereba parametrebi amis shemdeg :  amis shemdeg iwereba functionis tani pitobid mixedvit
 # xolo amis shemdeg xdeba mati gamodzaxeba function_is saxelit ()-it da ()-shi argumentebit.
 
-# დაწერე ფუნქცია, რომელიც მიიღებს ორ რიცხვს და დააბრუნებს მათგან დიდს.
-def max(x,y):
-    if x > y:
-        return x
-    else:
-        return y
+# # დაწერე ფუნქცია, რომელიც მიიღებს ორ რიცხვს და დააბრუნებს მათგან დიდს.
+# def max(x,y):
+#     if x > y:
+#         return x
+#     else:
+#         return y
  
-print(max(75,333))
+# print(max(75,333))
 
-# დაწერე ფუნქცია, რომელიც მიიღებს სიგრძეს და სიგანეს და დააბრუნებს მართკუთხედის ფართობს.
-def spr(x,y):
-    return x * y
-print(spr(7,9))
+# # დაწერე ფუნქცია, რომელიც მიიღებს სიგრძეს და სიგანეს და დააბრუნებს მართკუთხედის ფართობს.
+# def spr(x,y):
+#     return x * y
+# print(spr(7,9))
 
 # დადებითია, უარყოფითი თუ ნულია
-def nums(x):
-    if x > 0:
-        return f"{x} is positive number" 
-    elif x < 0:
-        return f"{x} is negative number"
-    else:
-        return f"{x} is zero"
-print(nums(0))
+# def nums(x):
+#     if x > 0:
+#         return f"{x} is positive number" 
+#     elif x < 0:
+#         return f"{x} is negative number"
+#     else:
+#         return f"{x} is zero"
+# print(nums(0))
 
-# დაწერე ფუნქცია, რომელიც მიიღებს ასაკს და დააბრუნებს:
+# # დაწერე ფუნქცია, რომელიც მიიღებს ასაკს და დააბრუნებს:
 
-def check_nums(x):
-    if x >= 18:
-        return f"person is adult"
-    else:
-        return f"person is teen"
+# def check_nums(x):
+#     if x >= 18:
+#         return f"person is adult"
+#     else:
+#         return f"person is teen"
 
-print(check_nums(18))
+# print(check_nums(18))
 
 
 
@@ -113,25 +113,41 @@ print(check_nums(18))
 # print(sum_digits(10))
 
 
-def narcissistic( value ):
-    list1 = []
-    list = []
-    um = str(value)
-    for i in um:
-        list.append(int(i))
-    for num in list:
-        list1.append(num**len(um))
-    if sum(list1) == value:
-        return True
-    else:
-        return False
+# def narcissistic( value ):
+#     list1 = []
+#     list = []
+#     um = str(value)
+#     for i in um:
+#         list.append(int(i))
+#     for num in list:
+#         list1.append(num**len(um))
+#     if sum(list1) == value:
+#         return True
+#     else:
+#         return False
         
-print(narcissistic(371))
+# print(narcissistic(371))
 
 
-def spin_words(sentence):
+# def sum_mul(n, m):
+    
+#     list = []
+#     for i in range(n,m,n):
+#         list.append(i)
+#     return sum(list)
 
+# print(sum_mul(2,9))
 
- 
-
-print(spin_words("Hey wollef sroirraw"))
+# def fizzbuzz(n):
+#     list = []
+#     for i in range(1,n+1):
+#         if i % 3 == 0 and i % 5 == 0:
+#             list.append("FizzBuzz")
+#         elif i % 5 == 0:
+#             list.append("Buzz")
+#         elif i % 3 == 0:
+#             list.append("Fizz")
+#         else:
+#              list.append(i)
+#     return list
+# print(fizzbuzz(15))

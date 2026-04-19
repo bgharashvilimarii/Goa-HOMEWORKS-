@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card1 {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.card2 {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.sk {
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.721);
+    margin-left: 240px;
+    width: 400px;
+    height: 300px;    
+    border-radius:12px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(images/06109851-ctry-132-171a795fe02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img {
+    background-color:  #31819e98; 
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.sk h1 {
+   font-size: 50px;
+
+}
+.sk p {
+    font-size: 20px;
+}
+
+.nk {
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.721);
+    width: 400px;
+    height: 300px;    
+    border-radius:12px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(images/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.nk h1 {
+   font-size: 50px;
+
+}
+.nk p {
+    font-size: 20px;
+}
+
+.tb {
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.721);
+    width: 400px;
+    height: 300px;    
+    border-radius:12px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(images/merlin_138493119_dc17f17f-96a2-4487-a9ea-214914926374-superJumbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.imgs {
+    background-color:  #c99a779d; 
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.tb h1 {
+   font-size: 50px;
+
+}
+.tb p {
+    font-size: 20px;
+}
+
+.p{
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.721);
+    margin-left: 240px;
+    width: 400px;
+    height: 300px;    
+    border-radius:12px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(images/BCC-2023-EXPLORER-MAGAZINE_UPDATES-PARIS_FACTS-HEADER_Mobile.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.p h1 {
+   font-size: 50px;
+
+}
+.p p {
+    font-size: 20px;
+}
+
+.tk {
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.721);
+    width: 400px;
+    height: 300px;    
+    border-radius:12px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(images/images\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.tk h1 {
+   font-size: 50px;
+
+}
+.tk p {
+    font-size: 20px;
+}
+
+.db {
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.721);
+    width: 400px;
+    height: 300px;    
+    border-radius:12px;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(images/images\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.db h1 {
+   font-size: 50px;
+
+}
+.db p {
+    font-size: 20px;
+}
