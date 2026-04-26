@@ -151,3 +151,63 @@
 #              list.append(i)
 #     return list
 # print(fizzbuzz(15))
+
+# def xo(s):
+#     let = s.lower()
+#     list = []
+#     for i in let:
+#         list.append(i)
+#         um = list.count("x")
+#         um1 = list.count("o")
+#         if "x" or "o" not in list:
+#             return True
+#         elif um == um1:
+#             return True
+#     return False
+
+# print(xo("xooxx"))
+
+# def is_isogram(string):
+#     root = string ** 0.5
+#     if root == int(root):
+#         return (int(root)+1) ** 2
+#     else:
+#         return -1
+
+
+  
+    
+# print(is_isogram(121))
+
+
+
+def vaporcode(s):
+    list = []
+    for i in s:
+        if i != " ":
+            list.append(i)
+    return " ".join(list)
+ 
+
+print(vaporcode("Lets go to the movies"))
+
+def password(st):
+    list1 = []
+    list = []
+    nums = ["1","2","3","4","5","6","7","8","9","0"]
+    for i in st:
+        list.append(i)
+        for k in nums:
+            for i in list:
+                if i == k:
+                    list1.append(int(i))
+    return list1
+
+
+        
+    # for i in st:
+    #     if len(st) >= 8 and i.lower() >= 1 or i.upper() >= 1 or i == int(i):
+    #         return True
+    #     else:
+    #         return False
+print(password("Abcd1234"))
