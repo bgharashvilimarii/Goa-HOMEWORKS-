@@ -1,0 +1,83 @@
+.d1 {
+    grid-row-start: 1;
+    border: 1px solid black;
+    width: 260px;
+    height: 40px;
+}
+#div1 {
+    display: grid;
+    grid-template-columns: 260px 260px;
+    grid-gap: 10px;
+}
+
+#main {
+    display: grid;
+    gap: 10px;
+}
+
+.div3 {
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 130px 80px 0px;
+    display: grid;
+}
+
+.d2 {
+  
+    border: 1px solid black;
+    height: 150px;
+    width: 140px;
+}
+
+
+.d3 {
+    border: 1px black solid;
+    width: 230px;
+    height: 200px;
+    display: grid;
+}
+.d4 {
+    margin-top: 30px;
+    grid-row-start: 2;
+    border: 1px black solid;
+    width: 290px;
+    height: 40px;
+}
+ .div4 {
+    display: grid;
+    grid-template-columns: 390px 142px;
+    grid-template-rows: 0;
+    grid-row-start: 3;
+} 
+.d5 {
+    grid-row-start: 3;
+    border: 1px solid black;
+    height: 140px;
+    margin-right: 10px;
+}
+.d6 {
+    grid-row-start: 3;
+    border: 1px solid black;
+    height: 140px;
+}
+.div5 {
+    grid-template-rows: 120px;
+    grid-template-columns: 170px 170px 170px;
+    display: grid;
+    gap: 10px;
+}
+.d7 {
+    border: 1px solid black;
+    height: 180px;
+    grid-row-start: 4;
+} 
+
+.d8 {
+    margin-top: 340px;
+    border: solid black 1px;
+    height: 40px;
+    width: 290px;
+}
+.d9 {
+    margin-top: 360px;
+    margin-left: 120px;
+}
