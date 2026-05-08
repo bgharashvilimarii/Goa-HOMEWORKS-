@@ -181,27 +181,27 @@
 
 
 
-def vaporcode(s):
-    list = []
-    for i in s:
-        if i != " ":
-            list.append(i)
-    return " ".join(list)
+# def vaporcode(s):
+#     list = []
+#     for i in s:
+#         if i != " ":
+#             list.append(i)
+#     return " ".join(list)
  
 
-print(vaporcode("Lets go to the movies"))
+# print(vaporcode("Lets go to the movies"))
 
-def password(st):
-    list1 = []
-    list = []
-    nums = ["1","2","3","4","5","6","7","8","9","0"]
-    for i in st:
-        list.append(i)
-        for k in nums:
-            for i in list:
-                if i == k:
-                    list1.append(int(i))
-    return list1
+# def password(st):
+#     list1 = []
+#     list = []
+#     nums = ["1","2","3","4","5","6","7","8","9","0"]
+#     for i in st:
+#         list.append(i)
+#         for k in nums:
+#             for i in list:
+#                 if i == k:
+#                     list1.append(int(i))
+#     return list1
 
 
         
@@ -210,4 +210,41 @@ def password(st):
     #         return True
     #     else:
     #         return False
-print(password("Abcd1234"))
+# print(password("Abcd1234"))
+
+
+# def sum_two_smallest_numbers(numbers):
+#     min1 = min(numbers)
+#     x = numbers.index(min1)
+#     numbers.pop(x)
+#     min2 = min(numbers)
+#     return min1 + min2
+# print(sum_two_smallest_numbers([19, 5, 42, 2, 77]))
+
+# def spot_diff(s1, s2):
+#     list = []
+#     for i in s1:
+#         if i not in s2:
+#             list.append(s1.index(i))
+#     return list
+       
+# print(spot_diff('abcdefg', 'abcqetg'))
+
+
+
+
+def meeting(s):
+    names = s.upper().split(";")
+    data = []
+    for person in names:
+        first,last = person.split(":")
+        data.append((last,first))
+        data.sort()
+        result = ""
+        for last,first in data:
+            result += "(" + last + ", " + first + ")"
+
+    return result
+
+    
+print(meeting("Fred:Corwill;Wilfred:Corwill;Barney:Tornbull;Betty:Tornbull;Bjon:Tornbull;Raphael:Corwill;Alfred:Corwill"))
