@@ -1,0 +1,227 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+.header {
+    margin-top: 0;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)),
+        url("Screenshot 2026-05-08 220758.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 800px;
+
+    position: relative;
+}
+
+nav {
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+    color: #cdbd9f;
+}
+nav a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    color: #cdbd9f;
+    transition: 1s;
+
+}
+nav a:hover {
+    transform: scale(1.3);
+}
+nav p {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    color: #cdbd9f;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 800px;
+    font-size: 26px;
+    color: white;
+    position: relative;
+
+}
+.text {
+    margin-left: 400px;
+    text-align: left;
+    margin-top: 140px;
+    margin-right: 140px;
+    color: white;
+}
+
+.text h1 {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text p {
+    color: #322519;
+    margin-left: 0px;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+.text button {
+    width: 160px;
+    height: 30px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    background-color: #8e7665;
+    cursor: pointer;
+    transition: 1s;
+}
+.text button:hover {
+    transform: scale(1.2);
+}
+.main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    height: 430px;
+    background-color:  #21140a;
+}
+
+.card1 ,.card2 {
+    background-color:#322519;
+    width: 270px;
+    height: 260px;
+   
+}
+.card1 :hover {
+     transition: 1s;
+    transform: scale(1.2);
+}
+.card2 :hover {
+    border-radius: 12px;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.main hr {
+    width: 200px;
+    border-color: #160D06 ;
+}
+
+.card1 img {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.card1 p {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #8e7665;
+}
+.t1 {
+    text-align: center;
+    margin-top: 0;
+}
+.card1 h3 {
+    font-size: 22px;
+    color: #8e7665;
+    text-align: center;
+    margin-bottom: 0;
+}
+.main1 {
+    background-color:  #322519;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-bottom: 30px;
+}
+.main1 img {
+    margin-left: 390px;
+    margin-top: 80px;
+    width: 440px;
+    height: 500px;
+    border-radius: 22px;
+}
+
+.main1 h1,p {
+    color: #8e7665;
+    margin-left: 40px;
+}
+
+.main1 h1 {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 40px;
+    color: antiquewhite;
+    margin-top: 80px;
+}
+
+.p1 , .p2 , .p3{
+    margin-top: 60px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #21140a;
+}
+.cont {
+    margin-top: 50px;
+}
+.cont h1 {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: antiquewhite;
+    margin-bottom: 0;
+    margin-left: 390px;
+}
+.cont p {
+    margin-top: 5px;
+    margin-left: 390px;
+}
+
+.email ,.ig , .fb {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ft {
+    margin-top: 30px;
+    display: block;
+    margin-left: 400px;
+}
+/* transition - შეგვიძლია ანიმაციას მივანიჭოთ გარკვეული დრო, რამდენი ხანიც გვინდა რომ გაგრძელდეს. ასევე შეგვიძლია ავირჩიოთ
+კუთვნილებები ცალ-ცალკე თუ მინდა რომ მხოლოდ მათი ანიმაციის დრო შევცვალოთ. 
+
+transition-delay - აყოვნებს გარკვეული დროით ანიმაციის დაწყებას
+გარკვეული კუთვნილებების ცალ-ცალკე არჩევა და ანიმაციის შეცვლა თუ გვსერს ჯერ ვწერთ კუთვნილების სახელს და შემდეგ დროს რამდენიხანიც გვსურს რომ შეიცვალოს ანიმაცია*/ 
