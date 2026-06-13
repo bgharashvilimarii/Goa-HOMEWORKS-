@@ -13,15 +13,27 @@
 # (მხოლოდ რიცხვი არა, ტექსტი გასაგებად).
 # თუ მომხმარებელს ამოეწურა მცდელობების რაოდენობა ან სწორად შეიყვანა პაროლი უბრალოდ გათიშეთ while ციკლი
 
-correct_password = "goa123"
-print("you have 3 tries")
-input_password = input("Please Enter Your Password: ")
+# correct_password = "goa123"
+# print("you have 3 tries")
+# input_password = input("Please Enter Your Password: ")
 
-tries = 2
+# tries = 2
 
 
-while input_password != correct_password and tries > 0:
-    print("Password is incorrect! Try again")
-    print("you have " + str(tries) + " tries left")
-    tries = tries - 1
-    input_password = input("Please Enter Your Password: ")
+# while input_password != correct_password and tries > 0:
+#     print("Password is incorrect! Try again")
+#     print("you have " + str(tries) + " tries left")
+#     tries = tries - 1
+#     input_password = input("Please Enter Your Password: ")
+def evaluate(equation):
+    math = equation.split(" @ ")
+    total = int(math[0])
+    for i in range(1 ,len(math)):
+        b = int(math[i])
+        if b == 0:
+            return None
+        result = (total + b) + (total - b) + (total * b) + (total // b)
+    return result
+
+
+print(evaluate('1 @ 1 @ -4'))
