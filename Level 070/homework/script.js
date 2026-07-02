@@ -14,3 +14,15 @@ defau(12)
 // function declaration aris rodesac wer "function" shemdeg am funqcias arqmev saxels da gadascem parametrebs 
 // xolo function expression aris rodesac am funqcias inaxav cvladshi
 
+let x = 5;
+
+console.log(x++);
+
+
+
+let a = 10;
+
+let b = a++;
+
+console.log(a);
+console.log(b);
